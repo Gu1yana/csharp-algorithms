@@ -24,15 +24,34 @@
 //}
 
 
-int num1 = 13, num2 = 14;
-int cem = num1 + num2;
+//int num1 = 13, num2 = 14;
+//int cem = num1 + num2;
 
-if (num1 % 2 == 0 && num2 % 2 == 0)
+//if (num1 % 2 == 0 && num2 % 2 == 0)
 
+//{
+//    Console.WriteLine($"ededlerin cemi: {cem}");
+//}
+//else
+//{
+//    Console.WriteLine("daxil olunan ededler cut olmalidir");
+//}
+
+
+int bal = 66;
+if (bal > 90 && bal <= 100)
 {
-    Console.WriteLine($"ededlerin cemi: {cem}");
+    Console.WriteLine("A");
+}
+if (bal > 80 && bal <= 90)
+{
+    Console.WriteLine("B");
+}
+if (bal > 70 && bal <= 80)
+{
+    Console.WriteLine("C");
 }
 else
 {
-    Console.WriteLine("daxil olunan ededler cut olmalidir");
+    Console.WriteLine("Kesilmisiniz ;( ");
 }
