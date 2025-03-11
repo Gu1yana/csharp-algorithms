@@ -38,20 +38,46 @@
 //}
 
 
-int bal = 66;
-if (bal > 90 && bal <= 100)
+//int bal = 66;
+//if (bal > 90 && bal <= 100)
+//{
+//    Console.WriteLine("A");
+//}
+//if (bal > 80 && bal <= 90)
+//{
+//    Console.WriteLine("B");
+//}
+//if (bal > 70 && bal <= 80)
+//{
+//    Console.WriteLine("C");
+//}
+//else
+//{
+//    Console.WriteLine("Kesilmisiniz ;( ");
+//}
+
+
+
+
+int A = 125, B = 95, C = 10;
+int cem = 0;
+if (A % 5 == 0)
 {
-    Console.WriteLine("A");
+    cem += A;
 }
-if (bal > 80 && bal <= 90)
+if (B % 5 == 0)
 {
-    Console.WriteLine("B");
+    cem += B;
 }
-if (bal > 70 && bal <= 80)
+if (C % 5 == 0)
 {
-    Console.WriteLine("C");
+    cem += C;
+}
+if (cem == 0)
+{
+    Console.WriteLine("ededler 5e qaliqsiz bolunmur");
 }
 else
 {
-    Console.WriteLine("Kesilmisiniz ;( ");
+    Console.WriteLine($"cem: {cem}");
 }
