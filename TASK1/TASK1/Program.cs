@@ -98,13 +98,24 @@
 //}
 
 
-int x = 0, y = 1, n = 10, z;
-Console.WriteLine(x);
-Console.WriteLine(y);
-for (int i = 1; i < n; i++)
+//int x = 0, y = 1, n = 10, z;
+//Console.WriteLine(x);
+//Console.WriteLine(y);
+//for (int i = 1; i < n; i++)
+//{
+//    z = y;
+//    y += x;
+//    x = z;
+//    Console.WriteLine(y);
+//}
+
+
+int[] arr = { 5, 8, 9, 1, 4, 3 };
+int sum = 0;
+
+
+for (int i = 0; i < arr.Length; i++)
 {
-    z = y;
-    y += x;
-    x = z;
-    Console.WriteLine(y);
+    sum += arr[i];
 }
+Console.WriteLine(sum);
