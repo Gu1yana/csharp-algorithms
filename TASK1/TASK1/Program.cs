@@ -58,26 +58,41 @@
 
 
 
+//int A = 125, B = 95, C = 10;
+//int cem = 0;
+//if (A % 5 == 0)
+//{
+//    cem += A;
+//}
+//if (B % 5 == 0)
+//{
+//    cem += B;
+//}
+//if (C % 5 == 0)
+//{
+//    cem += C;
+//}
+//if (cem == 0)
+//{
+//    Console.WriteLine("ededler 5e qaliqsiz bolunmur");
+//}
+//else
+//{
+//    Console.WriteLine($"cem: {cem}");
+//}
 
-int A = 125, B = 95, C = 10;
-int cem = 0;
-if (A % 5 == 0)
+
+int eded = 72;
+int b = eded;
+int a;
+eded %= 10;
+a = (b - eded) / 10;
+
+if (a > eded)
 {
-    cem += A;
-}
-if (B % 5 == 0)
-{
-    cem += B;
-}
-if (C % 5 == 0)
-{
-    cem += C;
-}
-if (cem == 0)
-{
-    Console.WriteLine("ededler 5e qaliqsiz bolunmur");
+    Console.WriteLine("onluq mertebesi boyukdur");
 }
 else
 {
-    Console.WriteLine($"cem: {cem}");
+    Console.WriteLine("teklik mertebesi boyukdur");
 }
