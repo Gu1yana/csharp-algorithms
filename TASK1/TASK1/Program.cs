@@ -110,12 +110,24 @@
 //}
 
 
-int[] arr = { 5, 8, 9, 1, 4, 3 };
-int sum = 0;
+//int[] arr = { 5, 8, 9, 1, 4, 3 };
+//int sum = 0;
 
+
+//for (int i = 0; i < arr.Length; i++)
+//{
+//    sum += arr[i];
+//}
+//Console.WriteLine(sum);
+
+
+int[] arr = { 11, 2, 9, 21, 81, 3 };
 
 for (int i = 0; i < arr.Length; i++)
 {
-    sum += arr[i];
+    if (arr[i] % 2 == 0)
+    {
+        Console.WriteLine(arr[i]);
+    }
+
 }
-Console.WriteLine(sum);
