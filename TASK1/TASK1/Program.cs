@@ -121,13 +121,24 @@
 //Console.WriteLine(sum);
 
 
-int[] arr = { 11, 2, 9, 21, 81, 3 };
+//int[] arr = { 11, 2, 9, 21, 81, 3 };
 
-for (int i = 0; i < arr.Length; i++)
+//for (int i = 0; i < arr.Length; i++)
+//{
+//    if (arr[i] % 2 == 0)
+//    {
+//        Console.WriteLine(arr[i]);
+//    }
+
+//}
+
+
+int[] numbers = { 6, 4, 6, 14, 9, 12 };
+int sum = 0;
+
+for (int i = 0; i < numbers.Length; i++)
 {
-    if (arr[i] % 2 == 0)
-    {
-        Console.WriteLine(arr[i]);
-    }
-
+    sum += numbers[i];
 }
+   int average = sum / numbers.Length;
+   Console.WriteLine($"EDEDI ORTA:{average}");
