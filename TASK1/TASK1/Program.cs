@@ -82,17 +82,29 @@
 //}
 
 
-int eded = 72;
-int b = eded;
-int a;
-eded %= 10;
-a = (b - eded) / 10;
+//int eded = 72;
+//int b = eded;
+//int a;
+//eded %= 10;
+//a = (b - eded) / 10;
 
-if (a > eded)
+//if (a > eded)
+//{
+//    Console.WriteLine("onluq mertebesi boyukdur");
+//}
+//else
+//{
+//    Console.WriteLine("teklik mertebesi boyukdur");
+//}
+
+
+int x = 0, y = 1, n = 10, z;
+Console.WriteLine(x);
+Console.WriteLine(y);
+for (int i = 1; i < n; i++)
 {
-    Console.WriteLine("onluq mertebesi boyukdur");
-}
-else
-{
-    Console.WriteLine("teklik mertebesi boyukdur");
+    z = y;
+    y += x;
+    x = z;
+    Console.WriteLine(y);
 }
