@@ -144,9 +144,22 @@
 //   Console.WriteLine($"EDEDI ORTA:{average}");
 
 
-int[] arr = { 11, 2, 9, 21, 81, 3 };
+//int[] arr = { 11, 2, 9, 21, 81, 3 };
 
-for (int i = arr.Length - 1; i >= 0; i--)
+//for (int i = arr.Length - 1; i >= 0; i--)
+//{
+//    Console.WriteLine(arr[i]);
+//}
+
+
+int[] arr = { 204, 7, 82, 91, 100, 3, 1 };
+int max = arr[0];
+
+for (int i = 1; i < arr.Length; i++)
 {
-    Console.WriteLine(arr[i]);
+    if (arr[i] > max)
+    {
+        max = arr[i];
+    }
 }
+Console.WriteLine(max);
