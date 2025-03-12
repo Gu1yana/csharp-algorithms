@@ -133,12 +133,20 @@
 //}
 
 
-int[] numbers = { 6, 4, 6, 14, 9, 12 };
-int sum = 0;
+//int[] numbers = { 6, 4, 6, 14, 9, 12 };
+//int sum = 0;
 
-for (int i = 0; i < numbers.Length; i++)
+//for (int i = 0; i < numbers.Length; i++)
+//{
+//    sum += numbers[i];
+//}
+//   int average = sum / numbers.Length;
+//   Console.WriteLine($"EDEDI ORTA:{average}");
+
+
+int[] arr = { 11, 2, 9, 21, 81, 3 };
+
+for (int i = arr.Length - 1; i >= 0; i--)
 {
-    sum += numbers[i];
+    Console.WriteLine(arr[i]);
 }
-   int average = sum / numbers.Length;
-   Console.WriteLine($"EDEDI ORTA:{average}");
