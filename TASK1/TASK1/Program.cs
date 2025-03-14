@@ -152,14 +152,31 @@
 //}
 
 
-int[] arr = { 204, 7, 82, 91, 100, 3, 1 };
-int max = arr[0];
+//int[] arr = { 204, 7, 82, 91, 100, 3, 1 };
+//int max = arr[0];
 
-for (int i = 1; i < arr.Length; i++)
+//for (int i = 1; i < arr.Length; i++)
+//{
+//    if (arr[i] > max)
+//    {
+//        max = arr[i];
+//    }
+//}
+//Console.WriteLine(max);
+
+
+
+int num = Convert.ToInt32(Console.ReadLine());
+int max = 0;
+int x;
+
+while (num > 0)
 {
-    if (arr[i] > max)
+    x = num % 10;
+    if (x > max)
     {
-        max = arr[i];
+        max = x;
     }
+    num /= 10;
 }
 Console.WriteLine(max);
